@@ -1,3 +1,20 @@
+.back {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+}
+.cont {
+    display: flex;
+    justify-content:space-between;
+    margin: 2rem
+}
+
+.cont_2 {
+    margin: 2rem;
+}
+
 .container {
-    color: aquamarine;
+    color: #0F2C67;
+    display: flex;
 }
