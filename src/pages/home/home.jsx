@@ -3,11 +3,12 @@ import React from 'react'
 import {
     Carousel,
     Card,
-    Button
+    Button,
+    Image
 } from 'react-bootstrap'
 // import { Link } from 'react-router-dom'
 import './home.css'
-import { IMG_1, IMG_2, IMG_3, IMG_4, IMG_5 } from '../../assets'
+import { IMG_1, IMG_2, IMG_3, IMG_4, IMG_5, LOGO} from '../../assets'
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -49,9 +50,10 @@ class HomePage extends React.Component {
                 </div> */}
                 <div class="header">
                     <div class="home-menu">
-                        <a href="">Be Hero Academy</a>
+                        {/* <a href="">Be Hero Academy</a> */}
+                        <Image src={LOGO.default} style={{width: '15vw', height: '8vh' }}/>
                         <div>
-                            <Button href="/login" variant="outline">Artikel</Button>
+                            <Button href="/login" variant="outline-warning">Artikel</Button>
                             <Button href="/sylabus" variant="outline">Program Pendidikan</Button>
                             <Button href="/login" variant="outline">Donasi</Button>
                             <Button href="/patner" variant="outline">Join Patner</Button>

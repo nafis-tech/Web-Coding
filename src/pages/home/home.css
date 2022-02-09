@@ -101,7 +101,7 @@ a.pure-button-primary {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu {
-    background: #F3950D;;
+    background: #F3950D;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
