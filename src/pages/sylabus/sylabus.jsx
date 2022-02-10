@@ -6,9 +6,9 @@ import React from 'react'
 //     Button
 // } from 'react-bootstrap'
 // import { Link } from 'react-router-dom'
-import './login.css'
+import './sylabus.css'
 
-class Login extends React.Component {
+class Sylabus extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -22,10 +22,17 @@ class Login extends React.Component {
    render () {
        return(
            <div>
-               <div className='container'>Login Page</div>
+               <div className='container'>Sylabus</div>
+               <div>
+                   <h5>Sylabus Pembelajaran : dropdown webminar & bootcamp</h5>
+                   <h5>Fundamental</h5>
+                   <h5>Frontend</h5>
+                   <h5>Backend</h5>
+                   <h5>Jumlah Anak Didik</h5>
+               </div>
            </div>
        )
    }
 }
 
-export default Login
+export default Sylabus

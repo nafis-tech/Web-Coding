@@ -6,9 +6,9 @@ import React from 'react'
 //     Button
 // } from 'react-bootstrap'
 // import { Link } from 'react-router-dom'
-import './login.css'
+import './patner.css'
 
-class Login extends React.Component {
+class Patner extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -22,10 +22,17 @@ class Login extends React.Component {
    render () {
        return(
            <div>
-               <div className='container'>Login Page</div>
+               <div className='container'>Register Patner</div>
+               <div>
+                   <h5>Nama Perusahaan</h5>
+                   <h5>Alamat lengkap</h5>
+                   <h5>Akte Pendirian</h5>
+                   <h5>Penanggung Jawab/ Ketua</h5>
+                   <h5>Jumlah Anak Didik</h5>
+               </div>
            </div>
        )
    }
 }
 
-export default Login
+export default Patner

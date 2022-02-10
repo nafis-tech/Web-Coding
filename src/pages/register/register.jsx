@@ -6,9 +6,9 @@ import React from 'react'
 //     Button
 // } from 'react-bootstrap'
 // import { Link } from 'react-router-dom'
-import './login.css'
+import './register.css'
 
-class Login extends React.Component {
+class Register extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -22,10 +22,15 @@ class Login extends React.Component {
    render () {
        return(
            <div>
-               <div className='container'>Login Page</div>
+               <div className='container'>Register Peserta</div>
+               <div>
+                   <h5>Nama</h5>
+                   <h5>Email</h5>
+                   <h5>No Handphone</h5>
+               </div>
            </div>
        )
    }
 }
 
-export default Login
+export default Register
