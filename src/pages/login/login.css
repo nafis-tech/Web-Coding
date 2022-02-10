@@ -12,8 +12,9 @@
 }
 .container {
     margin: 0 25vw;
-    height: 60vh;
-    background-color: #F3950D;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25vw;
 
 }
 .af {
@@ -24,4 +25,12 @@
 }
 .cover {
     background-color: #0F2C67 ;
+}
+
+.ag {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 60px;
+    background-color: #0F2C67;
+    margin-top: 250px;
 }

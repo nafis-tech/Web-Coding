@@ -44,14 +44,15 @@ class Login extends React.Component {
                         </Button>
                     </Form>
                </div>
-               <div>
-                   <h3>Belum punya akun?</h3>
+               <div className='ag'>
+                   <h3 style={{color: 'white', marginBottom: '25px'}} >Belum punya akun?</h3>
                    <Button variant="primary" type="submit">
                             Register sekarang
                     </Button>
-
                </div>
-               
+               <div>
+                   as
+               </div>
            </div>
        )
    }
