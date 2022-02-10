@@ -1,0 +1,29 @@
+.colom {
+    background-color: #F3950D;
+    padding: 30px 50px;
+    flex-basis: 50vw;
+}
+.container {
+    background-color:  #0F2C67;
+    padding: 20px 30px;
+    height: 10vh;
+}
+.container h1{
+    color: aliceblue;
+}
+.cont {
+    display: flex;
+    margin-top: 50px;
+}
+.contleft {
+    flex-basis: 50vw;
+    
+}
+.contleft img{
+    width: 50vw;
+    height: 90vh;
+    size: cover;
+}
+.full {
+    background-color: #0F2C67;
+}

@@ -1,0 +1,36 @@
+.aa {
+    background-color: #F3950D;
+    height: 20vh;
+    padding-left: 100px;
+    margin: 0 100px;
+}
+.aa h1{
+    color: black;
+    padding: 30px;
+    text-align: center;
+    margin-right: 30vw;
+}
+.container {
+    margin: 0 25vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25vw;
+
+}
+.af {
+    justify-content: center;
+    align-items: center;
+    padding: 0 25vw;
+    margin: 50px;
+}
+.cover {
+    background-color: #0F2C67 ;
+}
+
+.ag {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 60px;
+    background-color: #0F2C67;
+    margin-top: 250px;
+}
