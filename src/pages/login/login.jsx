@@ -1,10 +1,11 @@
 import React from 'react'
 // import Axios from 'axios'
-// import {
-//     Carousel,
-//     Card,
-//     Button
-// } from 'react-bootstrap'
+import {
+    Carousel,
+    Card,
+    Button,
+    Form,
+} from 'react-bootstrap'
 // import { Link } from 'react-router-dom'
 import './login.css'
 
@@ -21,8 +22,36 @@ class Login extends React.Component {
     }
    render () {
        return(
-           <div>
-               <div className='container'>Login Page</div>
+           <div className='cover' >
+               <div className='aa'>
+                    <h1>Wellcome Back......!</h1>
+               </div>
+               <div className='container'>
+                    <Form className='af'>
+                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Label style={{color: 'white'}}>Email address</Form.Label>
+                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Text className="text-muted">
+                            We'll never share your email with anyone else.
+                            </Form.Text>
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicPassword">
+                            <Form.Label style={{color: 'white'}} >Password</Form.Label>
+                            <Form.Control type="password" placeholder="Password" />
+                        </Form.Group>
+                        <Button variant="primary" type="submit">
+                            Login
+                        </Button>
+                    </Form>
+               </div>
+               <div>
+                   <h3>Belum punya akun?</h3>
+                   <Button variant="primary" type="submit">
+                            Register sekarang
+                    </Button>
+
+               </div>
+               
            </div>
        )
    }

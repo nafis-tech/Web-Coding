@@ -1,10 +1,13 @@
 import React from 'react'
 // import Axios from 'axios'
-// import {
-//     Carousel,
-//     Card,
-//     Button
-// } from 'react-bootstrap'
+import {
+    Carousel,
+    Card,
+    Button,
+    InputGroup,
+    FormControl,
+    Form,
+} from 'react-bootstrap'
 // import { Link } from 'react-router-dom'
 import './register.css'
 
@@ -21,12 +24,38 @@ class Register extends React.Component {
     }
    render () {
        return(
-           <div>
-               <div className='container'>Register Peserta</div>
-               <div>
-                   <h5>Nama</h5>
-                   <h5>Email</h5>
-                   <h5>No Handphone</h5>
+           <div className='full'>
+               <div className='container'>
+                   <h1>Register Peserta</h1>
+               </div>
+               <div className='colom'>
+               <InputGroup className="mb-3">
+                <InputGroup.Text>Name</InputGroup.Text>
+                    <FormControl aria-label="First name" placeholder="First name" />
+                    <FormControl aria-label="Last name" placeholder="Last name" />
+                </InputGroup>
+                <InputGroup className="mb-3">
+                    <InputGroup.Text>Handphone</InputGroup.Text>
+                    <FormControl aria-label="First name" placeholder="+62" />
+
+                </InputGroup>
+                <Form>
+                    <Form.Group className="mb-3" controlId="formGroupEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" placeholder="Enter email" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formGroupPassword">
+                        <Form.Label>Password</Form.Label>
+                        <Form.Control type="password" placeholder="Password" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formGroupPassword">
+                        <Form.Label>Confirm Password</Form.Label>
+                        <Form.Control type="password" placeholder="Password" />
+                    </Form.Group>
+                    <Button variant="primary" type="submit">
+                            Register
+                    </Button>
+                </Form>
                </div>
            </div>
        )
